@@ -25,9 +25,8 @@ liqss/
   scripts/                 Train/eval CLIs
   configs/                 Reproducible experiment configs (YAML)
   tests/                   Lightweight unit tests
-  notebooks/               Optional notebooks (kept minimal)
-  data/                    Data folder (placeholders; not tracked)
-  assets/                  Figures / misc (optional)
+  data/                    Data folder
+  assets/                  Figures / misc
 ```
 
 ---
