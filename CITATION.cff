@@ -17,7 +17,7 @@ authors:
   - family-names: "Debbah"
     given-names: "Merouane"
 license: "MIT"
-repository-code: "https://github.com/<your-org-or-user>/quantum-state-space"
+repository-code: "https://github.com/frezazadeh/quantum-state-space"
 keywords:
   - 6G
   - O-RAN
