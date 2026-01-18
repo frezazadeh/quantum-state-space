@@ -16,7 +16,7 @@ authors:
     given-names: "Dusit"
   - family-names: "Debbah"
     given-names: "Merouane"
-license: "PolyForm-Noncommercial-1.0.0"
+license: "MIT"
 repository-code: "https://github.com/<your-org-or-user>/quantum-state-space"
 keywords:
   - 6G
@@ -43,4 +43,4 @@ preferred-citation:
       given-names: "Dusit"
     - family-names: "Debbah"
       given-names: "Merouane"
-  year: 2025
+  year: 2026
