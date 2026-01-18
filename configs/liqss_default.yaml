@@ -1,0 +1,57 @@
+# LiQSS default configuration (paper-style compact setting)
+
+data_dir: data
+x_file: x.npy
+y_file: y.npy
+feature_names:
+  - MCS
+  - CQI
+  - RI
+  - PMI
+  - Buffer
+  - PRBs
+  - RSRQ
+  - RSRP
+  - RSSI
+  - SINR
+  - SE
+  - BLER
+  - Delay
+
+target: RSRP
+target_index: 7
+
+train_ratio: 0.70
+val_ratio: 0.15
+
+batch_size: 256
+num_epochs: 120
+lr: 0.003
+weight_decay: 0.0001
+patience: 30
+grad_clip: 1.0
+seed: 42
+
+# Model
+
+d_model: 64
+n_layers: 2
+ssm_state_dim: 32
+dropout: 0.1
+n_components: 2
+hippo_dt_init: 0.1
+
+# TT
+use_tt_inproj: true
+use_tt_head: true
+
+tt_in_in_modes: [1, 1, 13]
+tt_in_out_modes: [4, 4, 4]
+tt_in_rank: 4
+
+tt_head_in_modes: [4, 4, 4]
+tt_head_out_modes: [1]
+tt_rank: 4
+
+# Outputs
+run_dir: runs/liqss_default

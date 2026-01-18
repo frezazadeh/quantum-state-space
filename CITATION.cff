@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the LiQSS paper."
+title: "LiQSS: Linear Quantum-Inspired State-Space Tensor Networks"
+authors:
+  - family-names: "Rezazadeh"
+    given-names: "Farhad"
+  - family-names: "Chergui"
+    given-names: "Hatim"
+  - family-names: "Bennis"
+    given-names: "Mehdi"
+  - family-names: "Song"
+    given-names: "Houbing"
+  - family-names: "Liu"
+    given-names: "Lingjia"
+  - family-names: "Niyato"
+    given-names: "Dusit"
+  - family-names: "Debbah"
+    given-names: "Merouane"
+license: "PolyForm-Noncommercial-1.0.0"
+repository-code: "https://github.com/<your-org-or-user>/quantum-state-space"
+keywords:
+  - 6G
+  - O-RAN
+  - state-space models
+  - tensor networks
+  - tensor train
+  - time series forecasting
+preferred-citation:
+  type: article
+  title: "LiQSS: Post-Transformer Linear Quantum-Inspired State-Space Tensor Networks for Real-Time 6G"
+  authors:
+    - family-names: "Rezazadeh"
+      given-names: "Farhad"
+    - family-names: "Chergui"
+      given-names: "Hatim"
+    - family-names: "Bennis"
+      given-names: "Mehdi"
+    - family-names: "Song"
+      given-names: "Houbing"
+    - family-names: "Liu"
+      given-names: "Lingjia"
+    - family-names: "Niyato"
+      given-names: "Dusit"
+    - family-names: "Debbah"
+      given-names: "Merouane"
+  year: 2025

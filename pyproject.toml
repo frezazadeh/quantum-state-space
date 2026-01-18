@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "liqss"
+version = "0.1.0"
+description = "LiQSS: Linear Quantum-Inspired State-Space Tensor Networks for Near-RT O-RAN forecasting"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+  {name = "LiQSS Authors"}
+]
+dependencies = [
+  "numpy>=1.23",
+  "pyyaml>=6.0",
+  "tqdm>=4.66",
+  "torch>=2.1"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+  "ruff>=0.5",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
