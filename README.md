@@ -144,12 +144,9 @@ A machine-readable citation is also provided in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
-This repository is released under the **PolyForm Noncommercial License 1.0.0**.
+This code is released under the MIT License (see `LICENSE`).
 
-- ✅ Academic/research use is allowed.
-- ❌ Commercial use is **not** allowed without separate permission.
-
-See [`LICENSE`](LICENSE).
+If you use this implementation in academic work, please consider citing the corresponding paper
 
 ---
 
