@@ -133,7 +133,7 @@ If you use this code, please cite the paper:
   title   = {LiQSS: Post-Transformer Linear Quantum-Inspired State-Space Tensor Networks for Real-Time 6G},
   author  = {Rezazadeh, Farhad and Chergui, Hatim and Bennis, Mehdi and Song, Houbing and Liu, Lingjia and Niyato, Dusit and Debbah, Merouane},
   journal = {arXiv:2601.12375},
-  year    = {2025}
+  year    = {2026}
 }
 ```
 
